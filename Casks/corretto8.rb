@@ -1,6 +1,6 @@
 cask "corretto8" do
   version "8.292.10.1"
-  md5 "16e896e21b6cf77f08ddc84cf91724de"
+  sha256 :no_check
 
   url "https://corretto.aws/downloads/resources/#{version.sub(/-\d+/, "")}/amazon-corretto-#{version}-macosx-x64.pkg"
   name "AWS Corretto JDK 8"
